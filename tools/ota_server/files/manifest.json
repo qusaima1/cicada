@@ -1,0 +1,20 @@
+{
+  "version": "1.0.433",
+  "secure_version": 2,
+  "url": "https://192.168.1.151:8443/firmware.bin",
+  "size": 987136,
+  "sha256": "050674a217f5f8c0a474c13a0699140ed48951f66443a674b11b9b6bf6fc821e",
+  "cicada": {
+    "channel": "stable",
+    "release_cert": {
+      "key_id": "stable-2026-01",
+      "alg": "ECDSA_P256_SHA256",
+      "channel": "stable",
+      "not_before": "2026-01-01T00:00:00Z",
+      "not_after": "2026-12-31T23:59:59Z",
+      "pubkey_der_b64": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAElOvQFni+pLQESkNkq2S0cTWfhKJqsVfv6v/EeZEsdN4+OOq70TPoCjj6M8BYAm/MXo6ciETah4exmxbwvaGpZA==",
+      "sig_b64": "MEUCIQDn1nMenkgFtHpP/PVSTre+rOSVQEO7JB0h8qhaEhEbIgIgGAaz1awVpk86sZ4RoFve5jsqsOBNjO9jXPIrWFBNqTc="
+    },
+    "manifest_sig_b64": "MEQCIGqe0G3qTDbFVe+P9VYDkSE7RxWhnF9S6gJR0+/T1jk8AiASvmEyjfU5Yaj4WJREaPGXkbKGMYIaXz80amyFdrVmGg=="
+  }
+}

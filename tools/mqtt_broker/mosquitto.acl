@@ -1,0 +1,10 @@
+# Admin can read/write everything under cicada/
+user admin
+topic readwrite cicada/#
+
+# Pattern rules for all other cert-auth clients:
+# %u becomes the "username" (CN) when use_identity_as_username=true
+pattern read   cicada/%u/cmd/#
+pattern write  cicada/%u/telemetry/#
+pattern write  cicada/%u/ack/#
+pattern write  cicada/%u/status/#

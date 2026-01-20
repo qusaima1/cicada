@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "wifi_sta.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        update_manager
+        transport_https_ota
+        trust_store
+        update_policy
+        manifest_client
+        esp_netif
+        esp_event
+        esp_wifi
+        nvs_flash
+        cicada_cmd
+        cicada_mqtt
+        mqtt_creds
+)

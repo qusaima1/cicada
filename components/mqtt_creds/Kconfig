@@ -1,0 +1,11 @@
+menu "Cicada MQTT Credentials"
+
+config CICADA_PROVISION_FROM_EMBEDDED
+    bool "Provision MQTT client cert/key from embedded files if missing"
+    default y
+    help
+        When enabled, firmware embeds device.crt/device.key and will write them
+        into NVS on first boot if missing. Use this for factory provisioning builds.
+        For release builds, disable this so private key is NOT present in firmware.
+
+endmenu

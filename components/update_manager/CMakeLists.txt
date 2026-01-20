@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "update_manager.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        freertos
+        esp_system
+        esp_timer
+        esp_event
+        app_update
+        spi_flash
+        nvs_flash
+)

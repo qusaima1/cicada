@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "manifest_client.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_http_client
+        json
+        trust_store
+        update_manager
+        cicada_crypto
+)
